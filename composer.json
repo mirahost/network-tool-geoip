@@ -1,0 +1,13 @@
+{
+  "name": "mirahost/network-tool-traceroute",
+  "description": "PHP Traceroute Tool",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mirahost\\NetworkTools\\": "src"
+    }
+  }
+}
