@@ -21,7 +21,7 @@ class Geoip
 
                 if(!empty($value)) {
 
-                    $output .= ucwords(str_replace('_',' ',$key)) .': ' . $value . '<br>';
+                    $output .= ucwords(str_replace('_',' ',$key)) .': ' . $value . '\n\r';
                 }
             }
         }
